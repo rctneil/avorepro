@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @attraction %>
+
+<div>
+  <%= link_to "Edit this attraction", edit_attraction_path(@attraction) %> |
+  <%= link_to "Back to attractions", attractions_path %>
+
+  <%= button_to "Destroy this attraction", @attraction, method: :delete %>
+</div>

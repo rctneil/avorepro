@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Submodels" %>
+
+<h1>Submodels</h1>
+
+<div id="submodels">
+  <% @submodels.each do |submodel| %>
+    <%= render submodel %>
+    <p>
+      <%= link_to "Show this submodel", submodel %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New submodel", new_submodel_path %>

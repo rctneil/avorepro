@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @submodel %>
+
+<div>
+  <%= link_to "Edit this submodel", edit_submodel_path(@submodel) %> |
+  <%= link_to "Back to submodels", submodels_path %>
+
+  <%= button_to "Destroy this submodel", @submodel, method: :delete %>
+</div>

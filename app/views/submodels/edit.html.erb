@@ -1,0 +1,12 @@
+<% content_for :title, "Editing submodel" %>
+
+<h1>Editing submodel</h1>
+
+<%= render "form", submodel: @submodel %>
+
+<br>
+
+<div>
+  <%= link_to "Show this submodel", @submodel %> |
+  <%= link_to "Back to submodels", submodels_path %>
+</div>
