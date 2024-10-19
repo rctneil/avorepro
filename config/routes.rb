@@ -11,8 +11,11 @@ Rails.application.routes.draw do
     Avo::Engine.routes.draw do
       get "companies/models", to: "companies#models"
       get "companies/models/submodels", to: "companies#submodels"
+      get "waste_time", to: "tools#waste_time"
     end
   end
+
+  mount MissionControl::Jobs::Engine, at: "/jobs"
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
   # Can be used by load balancers and uptime monitors to verify that the app is live.

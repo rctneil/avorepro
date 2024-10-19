@@ -1,0 +1,3 @@
+class Coaster < Attraction
+
+end

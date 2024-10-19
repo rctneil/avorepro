@@ -42,6 +42,11 @@ Avo.configure do |config|
   # config.raise_error_on_missing_policy = false
   config.authorization_client = nil
 
+  config.model_resource_mapping = {
+    'Coaster': 'Avo::Resources::Attraction',
+    'Attraction': 'Avo::Resources::Attraction'
+  }
+
   ## == Localization ==
   # config.locale = 'en-US'
 

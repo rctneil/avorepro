@@ -9,5 +9,6 @@ class Avo::Resources::Company < Avo::BaseResource
     field :id, as: :id
     field :name, as: :text
     field :models, as: :has_many
+    field :companyables, as: :has_many
   end
 end
