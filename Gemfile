@@ -63,6 +63,6 @@ gem "bullet", "~> 7.2"
 
 gem "solid_queue", "~> 1.0"
 
-gem "mission_control-jobs", "~> 0.3.2"
+gem "mission_control-jobs", "~> 0.3.3"
 
 gem "friendly_id", "~> 5.5"
