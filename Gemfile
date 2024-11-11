@@ -59,7 +59,7 @@ gem "avo", "~> 3.13.6"
 
 gem "propshaft", "~> 1.1"
 
-gem "bullet", "~> 7.2"
+gem "bullet", "~> 8.0"
 
 gem "solid_queue", "~> 1.0"
 
