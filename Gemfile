@@ -54,7 +54,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "avo", "~> 3.13.6"
+gem "avo", "~> 3.14.2"
 # gem "avo-advanced", ">= 3.13.6", source: "https://packager.dev/avo-hq/"
 
 gem "propshaft", "~> 1.1"
