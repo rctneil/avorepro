@@ -61,7 +61,7 @@ gem "propshaft", "~> 1.1"
 
 gem "bullet", "~> 7.2"
 
-gem "solid_queue", "~> 1.0"
+gem "solid_queue", "~> 1.1"
 
 gem "mission_control-jobs", "~> 0.3.2"
 
